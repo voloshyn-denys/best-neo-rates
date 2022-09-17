@@ -46,7 +46,7 @@ const App = () => {
   };
 
   const onButtonClickHandler = () => {
-    generateCsv(nodes, graph, totalAmount);
+    generateCsv(nodes, graph, amountCAD);
   }
 
   if (loading) return null;
